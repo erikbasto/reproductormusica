@@ -12,6 +12,17 @@
 		BF4EF0F11F5B890800723618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4EF0EF1F5B890800723618 /* Main.storyboard */; };
 		BF4EF0F31F5B890800723618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4EF0F21F5B890800723618 /* Assets.xcassets */; };
 		BF4EF0F61F5B890800723618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4EF0F41F5B890800723618 /* LaunchScreen.storyboard */; };
+		BF4EF0FF1F5B951F00723618 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4EF0FE1F5B951F00723618 /* pause.png */; };
+		BF4EF1011F5B952700723618 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4EF1001F5B952700723618 /* play.png */; };
+		BF4EF1031F5B952E00723618 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4EF1021F5B952E00723618 /* stop.png */; };
+		BF4EF1051F5B953400723618 /* shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4EF1041F5B953400723618 /* shuffle.png */; };
+		BF4EF1071F5C926800723618 /* sing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4EF1061F5C926800723618 /* sing.swift */; };
+		BF4EF10A1F5CB1B200723618 /* Vivaldi-FourSeasons-Winter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF4EF1091F5CB1B200723618 /* Vivaldi-FourSeasons-Winter.mp3 */; };
+		BF4EF10E1F5CC34600723618 /* Epica-UniversalDeathSquad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF4EF10D1F5CC34600723618 /* Epica-UniversalDeathSquad.mp3 */; };
+		BF4EF1101F5CC5FE00723618 /* Beethoven-QuintaSinfonia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF4EF10F1F5CC5FE00723618 /* Beethoven-QuintaSinfonia.mp3 */; };
+		BF4EF1121F5CC6D600723618 /* Wagner-CabalgataValquirias.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF4EF1111F5CC6D600723618 /* Wagner-CabalgataValquirias.mp3 */; };
+		BF4EF1141F5CC7EE00723618 /* Queen-BohemianRhapsody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF4EF1131F5CC7EE00723618 /* Queen-BohemianRhapsody.mp3 */; };
+		BF4EF1161F5CC9B600723618 /* LoR-KnifeInDark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF4EF1151F5CC9B600723618 /* LoR-KnifeInDark.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		BF4EF0F21F5B890800723618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4EF0F51F5B890800723618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF4EF0F71F5B890800723618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4EF0FE1F5B951F00723618 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		BF4EF1001F5B952700723618 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		BF4EF1021F5B952E00723618 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		BF4EF1041F5B953400723618 /* shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuffle.png; sourceTree = "<group>"; };
+		BF4EF1061F5C926800723618 /* sing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sing.swift; sourceTree = "<group>"; };
+		BF4EF1091F5CB1B200723618 /* Vivaldi-FourSeasons-Winter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Vivaldi-FourSeasons-Winter.mp3"; sourceTree = "<group>"; };
+		BF4EF10D1F5CC34600723618 /* Epica-UniversalDeathSquad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Epica-UniversalDeathSquad.mp3"; sourceTree = "<group>"; };
+		BF4EF10F1F5CC5FE00723618 /* Beethoven-QuintaSinfonia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beethoven-QuintaSinfonia.mp3"; sourceTree = "<group>"; };
+		BF4EF1111F5CC6D600723618 /* Wagner-CabalgataValquirias.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wagner-CabalgataValquirias.mp3"; sourceTree = "<group>"; };
+		BF4EF1131F5CC7EE00723618 /* Queen-BohemianRhapsody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Queen-BohemianRhapsody.mp3"; sourceTree = "<group>"; };
+		BF4EF1151F5CC9B600723618 /* LoR-KnifeInDark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "LoR-KnifeInDark.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,41 @@
 		BF4EF0EA1F5B890800723618 /* reproductormusica */ = {
 			isa = PBXGroup;
 			children = (
+				BF4EF1081F5CAF1E00723618 /* playlist */,
+				BF4EF0FD1F5B950C00723618 /* images */,
 				BF4EF0EB1F5B890800723618 /* AppDelegate.swift */,
 				BF4EF0ED1F5B890800723618 /* ViewController.swift */,
 				BF4EF0EF1F5B890800723618 /* Main.storyboard */,
 				BF4EF0F21F5B890800723618 /* Assets.xcassets */,
 				BF4EF0F41F5B890800723618 /* LaunchScreen.storyboard */,
 				BF4EF0F71F5B890800723618 /* Info.plist */,
+				BF4EF1061F5C926800723618 /* sing.swift */,
 			);
 			path = reproductormusica;
+			sourceTree = "<group>";
+		};
+		BF4EF0FD1F5B950C00723618 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BF4EF1041F5B953400723618 /* shuffle.png */,
+				BF4EF1021F5B952E00723618 /* stop.png */,
+				BF4EF1001F5B952700723618 /* play.png */,
+				BF4EF0FE1F5B951F00723618 /* pause.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		BF4EF1081F5CAF1E00723618 /* playlist */ = {
+			isa = PBXGroup;
+			children = (
+				BF4EF1151F5CC9B600723618 /* LoR-KnifeInDark.mp3 */,
+				BF4EF1131F5CC7EE00723618 /* Queen-BohemianRhapsody.mp3 */,
+				BF4EF1111F5CC6D600723618 /* Wagner-CabalgataValquirias.mp3 */,
+				BF4EF10F1F5CC5FE00723618 /* Beethoven-QuintaSinfonia.mp3 */,
+				BF4EF10D1F5CC34600723618 /* Epica-UniversalDeathSquad.mp3 */,
+				BF4EF1091F5CB1B200723618 /* Vivaldi-FourSeasons-Winter.mp3 */,
+			);
+			name = playlist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +172,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4EF1101F5CC5FE00723618 /* Beethoven-QuintaSinfonia.mp3 in Resources */,
+				BF4EF1051F5B953400723618 /* shuffle.png in Resources */,
+				BF4EF1011F5B952700723618 /* play.png in Resources */,
+				BF4EF0FF1F5B951F00723618 /* pause.png in Resources */,
+				BF4EF1141F5CC7EE00723618 /* Queen-BohemianRhapsody.mp3 in Resources */,
 				BF4EF0F61F5B890800723618 /* LaunchScreen.storyboard in Resources */,
 				BF4EF0F31F5B890800723618 /* Assets.xcassets in Resources */,
+				BF4EF10E1F5CC34600723618 /* Epica-UniversalDeathSquad.mp3 in Resources */,
+				BF4EF1121F5CC6D600723618 /* Wagner-CabalgataValquirias.mp3 in Resources */,
+				BF4EF1161F5CC9B600723618 /* LoR-KnifeInDark.mp3 in Resources */,
+				BF4EF1031F5B952E00723618 /* stop.png in Resources */,
+				BF4EF10A1F5CB1B200723618 /* Vivaldi-FourSeasons-Winter.mp3 in Resources */,
 				BF4EF0F11F5B890800723618 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF4EF0EE1F5B890800723618 /* ViewController.swift in Sources */,
+				BF4EF1071F5C926800723618 /* sing.swift in Sources */,
 				BF4EF0EC1F5B890800723618 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
